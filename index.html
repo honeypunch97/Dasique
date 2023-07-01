@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="./images/favicon.ico" />
+      <title>Dasique</title>
+      <link rel="stylesheet" href="css/reset.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+   </head>
+   <body>
+      <div id="wrap">
+         <header>
+            <div class="inner">
+               <nav class="top-nav">
+                  <h1>
+                     <a href="#"><img src="./images/logo.png" alt="dasique" loading="lazy" /></a>
+                  </h1>
+                  <ul>
+                     <li>
+                        <a href="#"><img src="./images/search_icon.png" alt="search" loading="lazy" /></a>
+                     </li>
+                     <li>
+                        <a href="#"><img src="./images/heart_icon.png" alt="heart" loading="lazy" /></a>
+                     </li>
+                     <li>
+                        <a href="#"><img src="./images/user_icon.png" alt="user" loading="lazy" /></a>
+                     </li>
+                     <li>
+                        <a href="#"><img src="./images/basket_icon.png" alt="basket" loading="lazy" /></a>
+                     </li>
+                  </ul>
+               </nav>
+               <nav class="gnb">
+                  <ul>
+                     <li>
+                        <a href="#">ABOUT US</a>
+                        <ul class="sub-menu">
+                           <li><a href="#">BRAND STORY</a></li>
+                           <li><a href="#">LOCATION</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="#">SHOP ALL</a>
+                        <ul class="sub-menu">
+                           <li><a href="#">ALL</a></li>
+                           <li><a href="#">EYE</a></li>
+                           <li><a href="#">LIP</a></li>
+                           <li><a href="#">BLUSH</a></li>
+                           <li><a href="#">NAIL</a></li>
+                           <li><a href="#">BASE</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="#"> COLLECTION</a>
+                        <ul class="sub-menu"></ul>
+                     </li>
+                     <li>
+                        <a href="#">BOARD</a>
+                        <ul class="sub-menu">
+                           <li><a href="#">NOTICE</a></li>
+                           <li><a href="#">Q&A</a></li>
+                           <li><a href="#">PHOTO REVIEW</a></li>
+                           <li><a href="#">REVIEW</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="#">REVIEW</a>
+                        <ul class="sub-menu"></ul>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </header>
+
+         <section class="visual">
+            <div class="swiper visual-swiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide slide1">
+                     <div class="text-box">
+                        <div>
+                           <em>warm-spring tone</em>
+                           <strong>01 warm<br />blending<br />mood cheek</strong>
+                           <button>discover now</button>
+                        </div>
+                     </div>
+                     <div class="img-box"><img src="./images/visual_1.png" alt="visual" loading="lazy" /></div>
+                  </div>
+                  <div class="swiper-slide slide2">
+                     <div class="text-box">
+                        <div>
+                           <em>cool-summer tone</em>
+                           <strong>02 cool<br />blending<br />mood cheek</strong>
+                           <button>discover now</button>
+                        </div>
+                     </div>
+                     <div class="img-box"><img src="./images/visual_2.png" alt="visual" loading="lazy" /></div>
+                  </div>
+                  <div class="swiper-slide slide3">
+                     <div class="text-box">
+                        <div>
+                           <em>warm-autumn tone</em>
+                           <strong>12 warm<br />shadow<br />palette</strong>
+                           <button>discover now</button>
+                        </div>
+                     </div>
+                     <div class="img-box"><img src="./images/visual_3.png" alt="visual" loading="lazy" /></div>
+                  </div>
+                  <div class="swiper-slide slide4">
+                     <div class="text-box">
+                        <div>
+                           <em>cool-winter tone</em>
+                           <strong>13 cool<br />shadow<br />palette</strong>
+                           <button>discover now</button>
+                        </div>
+                     </div>
+                     <div class="img-box"><img src="./images/visual_4.png" alt="visual" loading="lazy" /></div>
+                  </div>
+               </div>
+               <div class="swiper-button-next"></div>
+               <div class="swiper-button-prev"></div>
+            </div>
+         </section>
+         <aside>
+            <button class="top-btn">TOP</button>
+         </aside>
+         <main class="contents">
+            <section class="best-sellers">
+               <div class="inner">
+                  <ul class="category">
+                     <li>all</li>
+                     <li>eye</li>
+                     <li>lip</li>
+                     <li>blush</li>
+                     <li>base</li>
+                     <li>nail</li>
+                  </ul>
+                  <h2>best sellers <a href="#">전체보기 +</a></h2>
+                  <div class="swiper best-sellers-swiper">
+                     <div class="swiper-wrapper">
+                        <!--   <div class="swiper-slide">
+                           <div class="item">
+                              <img src="#" alt="#" />
+                              <strong>제목</strong>
+                              <p><em>기존가격</em><em></em></p>
+                           </div>
+                        </div> -->
+                     </div>
+                     <div class="swiper-pagination"></div>
+                  </div>
+               </div>
+            </section>
+            <section class="new-products">
+               <div class="inner">
+                  <div class="text-box">
+                     <h2>new products</h2>
+                     <strong>Smooth like butter,<br />melting soft mood</strong>
+                     <p>
+                        버터 한 조각 넣은 듯 부드럽고 뽀얀 soft Fit & Tone<br />바르는 순간 녹아드는 소프트 핏 버터
+                        무드를 느껴보세요
+                     </p>
+                  </div>
+                  <div class="img-box">
+                     <a href="#"
+                        ><img src="./images/new_products_img.png" alt="new products" loading="lazy" />
+                        <button>
+                           자세히보기 <img src="./images/new_products_arrow.png" alt="화살표" loading="lazy" /></button
+                     ></a>
+                  </div>
+               </div>
+            </section>
+            <section class="collection">
+               <div class="inner">
+                  <h2>collection</h2>
+                  <p>데이지크만의 컬렉션을 소개합니다</p>
+                  <div class="swiper collection-swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <div class="img-box">
+                              <a href="#">
+                                 <img src="./images/collection/collection_main1.png" alt="#" loading="lazy" />
+                                 <button>
+                                    자세히보기
+                                    <img src="./images/new_products_arrow.png" alt="화살표" loading="lazy" /></button
+                              ></a>
+                           </div>
+                           <ul>
+                              <li>
+                                 <img
+                                    src="./images/collection/collection_item1.png"
+                                    alt="#"
+                                    loading="lazy"
+                                    loading="lazy" />
+                                 <strong>버터 컬렉션 3종 SET</strong>
+                                 <em>49,000 원</em>
+                                 <button>Details</button>
+                              </li>
+                              <li>
+                                 <img
+                                    src="./images/collection/collection_item2.png"
+                                    alt="#"
+                                    loading="lazy"
+                                    loading="lazy" />
+                                 <strong>섀도우 팔레트 17 버터 크림</strong>
+                                 <em>27,200 원</em>
+                                 <button>Details</button>
+                              </li>
+                              <li>
+                                 <img
+                                    src="./images/collection/collection_item3.png"
+                                    alt="#"
+                                    loading="lazy"
+                                    loading="lazy" />
+                                 <strong>버터 컬렉션 3종 SET</strong>
+                                 <em>49,000 원</em>
+                                 <button>Details</button>
+                              </li>
+                              <li>
+                                 <img
+                                    src="./images/collection/collection_item4.png"
+                                    alt="#"
+                                    loading="lazy"
+                                    loading="lazy" />
+                                 <strong>섀도우 팔레트 17 버터 크림</strong>
+                                 <em>27,200 원</em>
+                                 <button>Details</button>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="img-box">
+                              <a href="#">
+                                 <img src="./images/collection/collection_main2.png" alt="#" loading="lazy" />
+                                 <button>자세히보기 <img src="./images/new_products_arrow.png" alt="화살표" /></button
+                              ></a>
+                           </div>
+                           <ul>
+                              <li>
+                                 <img src="./images/collection/collection_item5.png" alt="#" loading="lazy" />
+                                 <strong>14 피치 스퀴즈 섀도우 팔레트</strong>
+                                 <em>27,200 원</em>
+                                 <button>Details</button>
+                              </li>
+                              <li>
+                                 <img src="./images/collection/collection_item6.png" alt="#" loading="lazy" />
+                                 <strong>03 피치 블렌딩 무드 치크</strong>
+                                 <em>19,200 원</em>
+                                 <button>Details</button>
+                              </li>
+                              <li>
+                                 <img src="./images/collection/collection_item7.png" alt="#" loading="lazy" />
+                                 <strong>워터 블러 틴트</strong>
+                                 <em>10,900 원</em>
+                                 <button>Details</button>
+                              </li>
+                              <li>
+                                 <img src="./images/collection/collection_item8.png" alt="#" loading="lazy" />
+                                 <strong>시럽 네일 컬러</strong>
+                                 <em>9,400 원</em>
+                                 <button>Details</button>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="img-box">
+                              <a href="#">
+                                 <img
+                                    src="./images/collection/collection_main3.png"
+                                    alt="#"
+                                    loading="lazy"
+                                    loading="lazy" />
+                                 <button>자세히보기 <img src="./images/new_products_arrow.png" alt="화살표" /></button
+                              ></a>
+                           </div>
+                           <ul>
+                              <li>
+                                 <img
+                                    src="./images/collection/collection_item9.png"
+                                    alt="#"
+                                    loading="lazy"
+                                    loading="lazy" />
+                                 <strong>12 웜 블렌딩 섀도우 팔레트</strong>
+                                 <em>27,200 원</em>
+                                 <button>Details</button>
+                              </li>
+                              <li>
+                                 <img
+                                    src="./images/collection/collection_item10.png"
+                                    alt="#"
+                                    loading="lazy"
+                                    loading="lazy" />
+                                 <strong>13 쿨 블렌딩 섀도우 팔레트</strong>
+                                 <em>27,200 원</em>
+                                 <button>Details</button>
+                              </li>
+                              <li>
+                                 <img
+                                    src="./images/collection/collection_item11.png"
+                                    alt="#"
+                                    loading="lazy"
+                                    loading="lazy" />
+                                 <strong>01 웜 블렌딩 무드 치크</strong>
+                                 <em>19,200 원</em>
+                                 <button>Details</button>
+                              </li>
+                              <li>
+                                 <img
+                                    src="./images/collection/collection_item12.png"
+                                    alt="#"
+                                    loading="lazy"
+                                    loading="lazy" />
+                                 <strong>02 쿨 블렌딩 무드 치크</strong>
+                                 <em>19,200 원</em>
+                                 <button>Details</button>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="img-box">
+                              <a href="#">
+                                 <img src="./images/collection/collection_main4.png" alt="#" loading="lazy" />
+                                 <button>
+                                    자세히보기
+                                    <img src="./images/new_products_arrow.png" alt="화살표" loading="lazy" /></button
+                              ></a>
+                           </div>
+                           <ul>
+                              <li>
+                                 <img src="./images/collection/collection_item13.png" alt="#" loading="lazy" />
+                                 <strong>버터 컬렉션 3종 SET</strong>
+                                 <em>49,000 원</em>
+                                 <button>Details</button>
+                              </li>
+                              <li>
+                                 <img src="./images/collection/collection_item14.png" alt="#" loading="lazy" />
+                                 <strong>섀도우 팔레트 17 버터 크림</strong>
+                                 <em>27,200 원</em>
+                                 <button>Details</button>
+                              </li>
+                              <li>
+                                 <img src="./images/collection/collection_item15.png" alt="#" loading="lazy" />
+                                 <strong>크림 드 버터 틴트</strong>
+                                 <em>13,600 원</em>
+                                 <button>Details</button>
+                              </li>
+                              <li>
+                                 <img src="./images/collection/collection_item16.png" alt="#" loading="lazy" />
+                                 <strong>시럽 네일 컬러</strong>
+                                 <em>9,400 원</em>
+                                 <button>Details</button>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="swiper-pagination"></div>
+                  </div>
+               </div>
+            </section>
+            <section class="inner-beauty">
+               <div class="inner">
+                  <img src="./images/inner-beauty1.png" alt="#" loading="lazy" />
+                  <img src="./images/inner-beauty2.png" alt="#" loading="lazy" />
+                  <h2>dasique<br />was born to bloss0m<br />your true inner beauty</h2>
+               </div>
+            </section>
+            <section class="review">
+               <div class="inner">
+                  <h2>review</h2>
+                  <ul class="category">
+                     <li>all</li>
+                     <li>lip</li>
+                     <li>blush</li>
+                     <li>nail</li>
+                  </ul>
+                  <div class="swiper review-swiper">
+                     <div class="swiper-wrapper">
+                        <!-- <div class="swiper-slide">
+                           <div class="slide-item">
+                              <a href="#">
+                                 <img src="item.img" alt="item.title" />
+                                 <div class="thum-box">
+                                    <img src="item.thumImg" alt="item.title" />
+                                    <div class="text-box">
+                                       <strong>item.title</strong>
+                                       <p class="score-wrap">
+                                          <span>item.score</span>
+                                          <span>item.review</span>
+                                       </p>
+                                    </div>
+                                 </div>
+                                 <p>item.comment</p>
+                                 <span class="star-score">
+                                    <i class="xi-star"></i>
+                                    <i class="xi-star"></i>
+                                    <i class="xi-star"></i>
+                                    <i class="xi-star"></i>
+                                    <i class="xi-star"></i>
+                                 </span>
+                                 <span class="date"></span>
+                              </a>
+                           </div>
+                        </div> -->
+                     </div>
+                     <div class="swiper-pagination"></div>
+                  </div>
+               </div>
+            </section>
+            <section class="blooming">
+               <div class="bg">
+                  <h2 class="scrolling-text">
+                     <span class="text">Blooming Your Own Beauty</span>
+                  </h2>
+               </div>
+            </section>
+         </main>
+
+         <!-- 푸터 -->
+         <footer>
+            <div class="inner">
+               <h2>
+                  <a href="#"><img src="./images/logo.png" alt="dasique" loading="lazy" /></a>
+               </h2>
+               <div class="btn-box">
+                  <button>register</button>
+                  <button><i class="xi-kakaotalk"></i>kakao</button>
+               </div>
+               <div class="sns-box">
+                  <i class="xi-facebook"></i>
+                  <i class="xi-instagram"></i>
+                  <i class="xi-youtube-play"></i>
+               </div>
+               <ul>
+                  <li><a href="">company</a></li>
+                  <li><a href="">agreement</a></li>
+                  <li><a href="">privacy policy</a></li>
+                  <li><a href="">guide</a></li>
+                  <li><a href="">business license</a></li>
+               </ul>
+               <div class="strong-text-box">
+                  <span>02-6959-3877</span>
+                  <span>opening am10-pm5</span>
+                  <span>lunch break pm12:30 - pm1:30</span>
+                  <span>sat,sum off</span>
+                  <span>기업은행 588-036269-04-017</span>
+                  <span>예금주: 주식회사 데이지크</span>
+               </div>
+               <div class="text-box">
+                  <span>company (주)데이지크</span>
+                  <span>owner&admin 연정미</span>
+                  <span>business no. 769-86-01723</span>
+                  <span>online-order no. 2020-서울강남-02057</span><br />
+                  <span>address 서울특별시 강남구 테헤란로 447, 10층(삼성동, KB우준타워)</span>
+                  <span>tel. 02-6959-3877</span><br />
+                  <span>domestic sales md@byecom.co.kr</span><br />
+                  <span>overseas sales juhee.seo@byecom.co.kr</span>
+                  <span>반품. 서울시 관진구 강변역로2 광진우체국 c동 3층 큐트레이딩 데이지크 tel&#41;02-6959-3877</span
+                  ><br />
+                  <span>COPYRIGHT (C) 2019 dasique ALL RIGHTS RESERVED / DESIGNED BY GA09 DESIGN</span>
+               </div>
+               <img src="./images/copy-logo.png" alt="" loading="lazy" />
+               <img src="./images/inipay_logo.png" alt="" loading="lazy" />
+            </div>
+         </footer>
+      </div>
+      <script src="main.js"></script>
+   </body>
+</html>

@@ -1,0 +1,290 @@
+[
+   {
+      "id": 1,
+      "category": "eye",
+      "title": "[ 피카소기획출시] 무드 업 마스카라 롱앤컬",
+      "originPrice": 19000,
+      "discountedPrice": 15200,
+      "img": "./images/shop/1.jpg"
+   },
+   {
+      "id": 2,
+      "category": "eye",
+      "title": "섀도우 팔레트 (아이스크림 컬렉션)",
+      "originPrice": 34000,
+      "discountedPrice": 27200,
+      "img": "./images/shop/2.jpg"
+   },
+   {
+      "id": 3,
+      "category": "eye",
+      "title": "섀도우 팔레트 18 베리 스무디",
+      "originPrice": 34000,
+      "discountedPrice": 27200,
+      "img": "./images/shop/3.jpg"
+   },
+   {
+      "id": 4,
+      "category": "eye",
+      "title": "스탈릿 글리터 파우더 3종 SET",
+      "originPrice": 33000,
+      "discountedPrice": 26400,
+      "img": "./images/shop/4.jpg"
+   },
+   {
+      "id": 5,
+      "category": "eye",
+      "title": "섀도우 팔레트 17 버터 크림",
+      "originPrice": 34000,
+      "discountedPrice": 27200,
+      "img": "./images/shop/5.jpg"
+   },
+   {
+      "id": 6,
+      "category": "eye",
+      "title": "섀도우 팔레트 16 바이올렛 니트",
+      "originPrice": 34000,
+      "discountedPrice": 27200,
+      "img": "./images/shop/6.jpg"
+   },
+   {
+      "id": 7,
+      "category": "eye",
+      "title": "섀도우 팔레트 15 베이지 니트",
+      "originPrice": 34000,
+      "discountedPrice": 27200,
+      "img": "./images/shop/7.jpg"
+   },
+   {
+      "id": 8,
+      "category": "eye",
+      "title": "섀도우 팔레트 14 피치 스퀴즈",
+      "originPrice": 34000,
+      "discountedPrice": 27200,
+      "img": "./images/shop/8.jpg"
+   },
+   {
+      "id": 9,
+      "category": "eye",
+      "title": "섀도우 팔레트13 쿨 블렌딩",
+      "originPrice": 34000,
+      "discountedPrice": 27200,
+      "img": "./images/shop/9.png"
+   },
+   {
+      "id": 10,
+      "category": "eye",
+      "title": "섀도우 팔레트12 웜 블렌딩",
+      "originPrice": 34000,
+      "discountedPrice": 27200,
+      "img": "./images/shop/10.png"
+   },
+   {
+      "id": 11,
+      "category": "lip",
+      "title": "[2+1] 무드 블러 립펜슬 10종",
+      "originPrice": 42000,
+      "discountedPrice": 28000,
+      "img": "./images/shop/11.jpg"
+   },
+   {
+      "id": 12,
+      "category": "lip",
+      "title": "[단품/10종 SET] 무드 블러 립펜슬",
+      "originPrice": 14000,
+      "discountedPrice": 10900,
+      "img": "./images/shop/12.jpg"
+   },
+   {
+      "id": 13,
+      "category": "lip",
+      "title": "무드 글로우 립스틱",
+      "originPrice": 17000,
+      "discountedPrice": 13600,
+      "img": "./images/shop/13.jpg"
+   },
+   {
+      "id": 14,
+      "category": "lip",
+      "title": "쥬시 듀이 틴트 (아이스크림 컬렉션)",
+      "originPrice": 17000,
+      "discountedPrice": 11900,
+      "img": "./images/shop/14.jpg"
+   },
+   {
+      "id": 15,
+      "category": "lip",
+      "title": "프루티 립 잼",
+      "originPrice": 17000,
+      "discountedPrice": 11900,
+      "img": "./images/shop/15.jpg"
+   },
+   {
+      "id": 16,
+      "category": "lip",
+      "title": "워터 블러 틴트 (베리 스무디 컬렉션)",
+      "originPrice": 17000,
+      "discountedPrice": 11900,
+      "img": "./images/shop/16.jpg"
+   },
+   {
+      "id": 17,
+      "category": "lip",
+      "title": "소프트 벨벳 립스틱01 누디 피칸",
+      "originPrice": 17000,
+      "discountedPrice": 15300,
+      "img": "./images/shop/17.jpg"
+   },
+   {
+      "id": 18,
+      "category": "lip",
+      "title": "크림 드 버터 틴트",
+      "originPrice": 17000,
+      "discountedPrice": 11900,
+      "img": "./images/shop/18.jpg"
+   },
+   {
+      "id": 19,
+      "category": "lip",
+      "title": "워터 블러 틴트",
+      "originPrice": 17000,
+      "discountedPrice": 11900,
+      "img": "./images/shop/19.jpg"
+   },
+   {
+      "id": 20,
+      "category": "lip",
+      "title": "크림 드 로즈 틴트",
+      "originPrice": 17000,
+      "discountedPrice": 11900,
+      "img": "./images/shop/20.jpg"
+   },
+   {
+      "id": 21,
+      "category": "blush",
+      "title": "블렌딩 무드 치크 (아이스크림 컬렉션)",
+      "originPrice": 24000,
+      "discountedPrice": 19200,
+      "img": "./images/shop/21.jpg"
+   },
+   {
+      "id": 22,
+      "category": "blush",
+      "title": "블렌딩 무드 치크 06 베리 스무디",
+      "originPrice": 24000,
+      "discountedPrice": 19200,
+      "img": "./images/shop/22.jpg"
+   },
+   {
+      "id": 23,
+      "category": "blush",
+      "title": "블렌딩 무드 치크 05 바이올렛 니트",
+      "originPrice": 24000,
+      "discountedPrice": 19200,
+      "img": "./images/shop/23.jpg"
+   },
+   {
+      "id": 24,
+      "category": "blush",
+      "title": "블렌딩 무드 치크 04 베이지 니트",
+      "originPrice": 24000,
+      "discountedPrice": 19200,
+      "img": "./images/shop/24.jpg"
+   },
+   {
+      "id": 25,
+      "category": "blush",
+      "title": "블렌딩 무드 치크 03 피치 블렌딩",
+      "originPrice": 24000,
+      "discountedPrice": 19200,
+      "img": "./images/shop/25.jpg"
+   },
+   {
+      "id": 26,
+      "category": "blush",
+      "title": "블렌딩 무드 치크 01 웜 블렌딩",
+      "originPrice": 24000,
+      "discountedPrice": 19200,
+      "img": "./images/shop/26.jpg"
+   },
+   {
+      "id": 27,
+      "category": "blush",
+      "title": "블렌딩 무드 치크 02 쿨 블렌딩",
+      "originPrice": 24000,
+      "discountedPrice": 19200,
+      "img": "./images/shop/27.jpg"
+   },
+   {
+      "id": 28,
+      "category": "blush",
+      "title": "파스텔 블러셔 01 러브 피치",
+      "originPrice": 15000,
+      "discountedPrice": 12000,
+      "img": "./images/shop/28.jpg"
+   },
+   {
+      "id": 29,
+      "category": "blush",
+      "title": "파스텔 블러셔 02 코랄 헤이즈",
+      "originPrice": 15000,
+      "discountedPrice": 12000,
+      "img": "./images/shop/29.jpg"
+   },
+   {
+      "id": 30,
+      "category": "blush",
+      "title": "브이컷 블렌딩 쉐딩",
+      "originPrice": 22000,
+      "discountedPrice": 17600,
+      "img": "./images/shop/30.jpg"
+   },
+   {
+      "id": 31,
+      "category": "nail",
+      "title": "시럽 네일 컬러 (베리 스무디 컬렉션)",
+      "originPrice": 12000,
+      "discountedPrice": 8900,
+      "img": "./images/shop/31.jpg"
+   },
+   {
+      "id": 32,
+      "category": "nail",
+      "title": "시럽 네일 컬러 버터 (버터 크림 컬렉션)",
+      "originPrice": 12000,
+      "discountedPrice": 8900,
+      "img": "./images/shop/32.jpg"
+   },
+   {
+      "id": 33,
+      "category": "nail",
+      "title": "시럽 네일 컬러 (피치 스퀴즈 컬렉션)",
+      "originPrice": 12000,
+      "discountedPrice": 8900,
+      "img": "./images/shop/33.jpg"
+   },
+   {
+      "id": 34,
+      "category": "base",
+      "title": "에어 블러핏 쿠션 (리필 2EA 증정)",
+      "originPrice": 34000,
+      "discountedPrice": 23800,
+      "img": "./images/shop/34.jpg"
+   },
+   {
+      "id": 35,
+      "category": "base",
+      "title": "에어 블러핏 쿠션 리필",
+      "originPrice": 20000,
+      "discountedPrice": 10900,
+      "img": "./images/shop/35.png"
+   },
+   {
+      "id": 36,
+      "category": "base",
+      "title": "프로 컨실러 팔레트",
+      "originPrice": 29000,
+      "discountedPrice": 23200,
+      "img": "./images/shop/36.png"
+   }
+]

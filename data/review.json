@@ -1,0 +1,222 @@
+[
+   {
+      "id": 1,
+      "category": "eye",
+      "title": "프로 컨실러 팔레트",
+      "img": "../images/review/eye.png",
+      "thumImg": "../images/review/eye_thum.png",
+      "score": 4.6,
+      "review": 558,
+      "comment": "퍼스널 컬러 진단받고 추천받아서 산건데 여름 쿨톤 라이트에게 너무 좋아요!!",
+      "date": "2023.2.10"
+   },
+   {
+      "id": 2,
+      "category": "eye",
+      "title": "프로 컨실러 팔레트",
+      "img": "../images/review/eye.png",
+      "thumImg": "../images/review/eye_thum.png",
+      "score": 4.6,
+      "review": 558,
+      "comment": "퍼스널 컬러 진단받고 추천받아서 산건데 여름 쿨톤 라이트에게 너무 좋아요!!",
+      "date": "2023.2.10"
+   },
+   {
+      "id": 3,
+      "category": "eye",
+      "title": "프로 컨실러 팔레트",
+      "img": "../images/review/eye.png",
+      "thumImg": "../images/review/eye_thum.png",
+      "score": 4.6,
+      "review": 558,
+      "comment": "퍼스널 컬러 진단받고 추천받아서 산건데 여름 쿨톤 라이트에게 너무 좋아요!!",
+      "date": "2023.2.10"
+   },
+   {
+      "id": 4,
+      "category": "eye",
+      "title": "프로 컨실러 팔레트",
+      "img": "../images/review/eye.png",
+      "thumImg": "../images/review/eye_thum.png",
+      "score": 4.6,
+      "review": 558,
+      "comment": "퍼스널 컬러 진단받고 추천받아서 산건데 여름 쿨톤 라이트에게 너무 좋아요!!",
+      "date": "2023.2.10"
+   },
+   {
+      "id": 5,
+      "category": "eye",
+      "title": "프로 컨실러 팔레트",
+      "img": "../images/review/eye.png",
+      "thumImg": "../images/review/eye_thum.png",
+      "score": 4.6,
+      "review": 558,
+      "comment": "퍼스널 컬러 진단받고 추천받아서 산건데 여름 쿨톤 라이트에게 너무 좋아요!!",
+      "date": "2023.2.10"
+   },
+   {
+      "id": 8,
+      "category": "lip",
+      "title": "크림 드 로즈 틴트",
+      "img": "../images/review/lip.png",
+      "thumImg": "../images/review/lip_thum.png",
+      "score": 4.6,
+      "review": 5007,
+      "comment": "색상이 진짜 너무 이뻐서 잘 사용하고 있어요.",
+      "date": "2023.2.12"
+   },
+   {
+      "id": 9,
+      "category": "lip",
+      "title": "크림 드 로즈 틴트",
+      "img": "../images/review/lip.png",
+      "thumImg": "../images/review/lip_thum.png",
+      "score": 4.6,
+      "review": 5007,
+      "comment": "색상이 진짜 너무 이뻐서 잘 사용하고 있어요.",
+      "date": "2023.2.12"
+   },
+   {
+      "id": 10,
+      "category": "lip",
+      "title": "크림 드 로즈 틴트",
+      "img": "../images/review/lip.png",
+      "thumImg": "../images/review/lip_thum.png",
+      "score": 4.6,
+      "review": 5007,
+      "comment": "색상이 진짜 너무 이뻐서 잘 사용하고 있어요.",
+      "date": "2023.2.12"
+   },
+   {
+      "id": 11,
+      "category": "lip",
+      "title": "크림 드 로즈 틴트",
+      "img": "../images/review/lip.png",
+      "thumImg": "../images/review/lip_thum.png",
+      "score": 4.6,
+      "review": 5007,
+      "comment": "색상이 진짜 너무 이뻐서 잘 사용하고 있어요.",
+      "date": "2023.2.12"
+   },
+   {
+      "id": 12,
+      "category": "lip",
+      "title": "크림 드 로즈 틴트",
+      "img": "../images/review/lip.png",
+      "thumImg": "../images/review/lip_thum.png",
+      "score": 4.6,
+      "review": 5007,
+      "comment": "색상이 진짜 너무 이뻐서 잘 사용하고 있어요.",
+      "date": "2023.2.12"
+   },
+   {
+      "id": 15,
+      "category": "blush",
+      "title": "브이컷 블렌딩 쉐딩",
+      "img": "../images/review/blush.png",
+      "thumImg": "../images/review/blush_thum.png",
+      "score": 4.7,
+      "review": 848,
+      "comment": "배송도 빠르고 색상도 예쁘고 좋아요.",
+      "date": "2023.2.08"
+   },
+   {
+      "id": 16,
+      "category": "blush",
+      "title": "브이컷 블렌딩 쉐딩",
+      "img": "../images/review/blush.png",
+      "thumImg": "../images/review/blush_thum.png",
+      "score": 4.7,
+      "review": 848,
+      "comment": "배송도 빠르고 색상도 예쁘고 좋아요.",
+      "date": "2023.2.08"
+   },
+   {
+      "id": 17,
+      "category": "blush",
+      "title": "브이컷 블렌딩 쉐딩",
+      "img": "../images/review/blush.png",
+      "thumImg": "../images/review/blush_thum.png",
+      "score": 4.7,
+      "review": 848,
+      "comment": "배송도 빠르고 색상도 예쁘고 좋아요.",
+      "date": "2023.2.08"
+   },
+   {
+      "id": 18,
+      "category": "blush",
+      "title": "브이컷 블렌딩 쉐딩",
+      "img": "../images/review/blush.png",
+      "thumImg": "../images/review/blush_thum.png",
+      "score": 4.7,
+      "review": 848,
+      "comment": "배송도 빠르고 색상도 예쁘고 좋아요.",
+      "date": "2023.2.08"
+   },
+   {
+      "id": 19,
+      "category": "blush",
+      "title": "브이컷 블렌딩 쉐딩",
+      "img": "../images/review/blush.png",
+      "thumImg": "../images/review/blush_thum.png",
+      "score": 4.7,
+      "review": 848,
+      "comment": "배송도 빠르고 색상도 예쁘고 좋아요.",
+      "date": "2023.2.08"
+   },
+   {
+      "id": 22,
+      "category": "nail",
+      "title": "버터 컬렉션 3종 set",
+      "img": "../images/review/nail.png",
+      "thumImg": "../images/review/nail_thum.png",
+      "score": 5.0,
+      "review": 4,
+      "comment": "포장 상자가 진짜 버터 같아서 신기했어요 ㅎㅎ 색상도 예쁘고 배송도 빨랐어요",
+      "date": "2023.2.10"
+   },
+   {
+      "id": 23,
+      "category": "nail",
+      "title": "버터 컬렉션 3종 set",
+      "img": "../images/review/nail.png",
+      "thumImg": "../images/review/nail_thum.png",
+      "score": 5.0,
+      "review": 4,
+      "comment": "포장 상자가 진짜 버터 같아서 신기했어요 ㅎㅎ 색상도 예쁘고 배송도 빨랐어요",
+      "date": "2023.2.10"
+   },
+   {
+      "id": 24,
+      "category": "nail",
+      "title": "버터 컬렉션 3종 set",
+      "img": "../images/review/nail.png",
+      "thumImg": "../images/review/nail_thum.png",
+      "score": 5.0,
+      "review": 4,
+      "comment": "포장 상자가 진짜 버터 같아서 신기했어요 ㅎㅎ 색상도 예쁘고 배송도 빨랐어요",
+      "date": "2023.2.10"
+   },
+   {
+      "id": 25,
+      "category": "nail",
+      "title": "버터 컬렉션 3종 set",
+      "img": "../images/review/nail.png",
+      "thumImg": "../images/review/nail_thum.png",
+      "score": 5.0,
+      "review": 4,
+      "comment": "포장 상자가 진짜 버터 같아서 신기했어요 ㅎㅎ 색상도 예쁘고 배송도 빨랐어요",
+      "date": "2023.2.10"
+   },
+   {
+      "id": 26,
+      "category": "nail",
+      "title": "버터 컬렉션 3종 set",
+      "img": "../images/review/nail.png",
+      "thumImg": "../images/review/nail_thum.png",
+      "score": 5.0,
+      "review": 4,
+      "comment": "포장 상자가 진짜 버터 같아서 신기했어요 ㅎㅎ 색상도 예쁘고 배송도 빨랐어요",
+      "date": "2023.2.10"
+   }
+]
